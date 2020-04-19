@@ -19,4 +19,14 @@
  	        - find(data) <br>
             - get_size() <br>
             - add(data) <br>
-            - remove(data)
+            - remove(data) <br>
+            
+#### - Doubly LinkedList <br>
+   - The doubly linked list works in a similar way but has one more reference field which is known as the "prev" field. With this extra field, you are able to know the previous node of the current node. <br>
+   -If we want to delete an existing node cur from the doubly linked list, we can simply link its previous node prev with its next node next.<br>
+   - Unlike the singly linked list, it is easy to get the previous node in constant time with the "prev" field.
+
+   - Since we no longer need to traverse the linked list to get the previous node, both the time and space complexity are O(1).
+        * Operations performed: <br>
+             - Add Operation <br>
+             - Remove Operation <br>
