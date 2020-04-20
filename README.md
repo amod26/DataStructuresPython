@@ -1,5 +1,7 @@
 # DataStructuresPython
-- You'll find Data Structures/ Algorithm problems from Leetcode.
+- Solving Data Structure problems all revolve around finding the solution in the least amount of time using the least computing resources. <br>
+- Calculating time can be denoted in complexity classes based on which operations you use. <br>
+- You'll find problems in this repo from Leetcode.
 
 ## 1. Arrays
 - Suppose you had a bunch of DVDs at home that you wanted to arrange neatly. What would be the ideal choice for storing such a thing? <br>
