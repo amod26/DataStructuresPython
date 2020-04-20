@@ -17,18 +17,20 @@
 ## 2. Linked List
 #### - Singly LinkedList <br>
    - Singly linkedlist have a data node and a pointer to the next node. <br>
-        * Operations performed: <br>
- 	        - find(data) <br>
-            - get_size() <br>
-            - add(data) <br>
-            - remove(data) <br>
-            
+      * Main Linked Lists Operations <br>
+           - Insert: inserts an clement into the list <br>
+           - Delete: removes and returns the specified position element from the list <br>
+      * Auxiliary Linked Lists Operations <br>
+           - Delete List: removes all elements of the list (dispose of the lisl) <br>
+           - Count: returns the number of elements in the list <br>
+           - Find nth node from the end of the list <br>
 #### - Doubly LinkedList <br>
    - The doubly linked list works in a similar way but has one more reference field which is known as the "prev" field. With this extra field, you are able to know the previous node of the current node. <br>
-   -If we want to delete an existing node cur from the doubly linked list, we can simply link its previous node prev with its next node next.<br>
+   - If we want to delete an existing node cur from the doubly linked list, we can simply link its previous node prev with its next node next.<br>
    - Unlike the singly linked list, it is easy to get the previous node in constant time with the "prev" field.
 
    - Since we no longer need to traverse the linked list to get the previous node, both the time and space complexity are O(1).
         * Operations performed: <br>
              - Add Operation <br>
              - Remove Operation <br>
+      
