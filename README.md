@@ -14,7 +14,12 @@
 
 
 * We usually use _for loop_ to write and read data from the Array. <br>
-
+*  Operations:
+    - Traverse − print all the array elements one by one.
+    - Insertion − Adds an element at the given index.
+    - Deletion − Deletes an element at the given index
+    - Search − Searches an element using the given index or by the value.
+    - Update − Updates an element at the given index.
 ## 2. Linked List
 #### - Singly LinkedList <br>
    - Singly linkedlist have a data node and a pointer to the next node. <br>
