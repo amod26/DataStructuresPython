@@ -1,4 +1,5 @@
 # DataStructuresPython
+- Accessing, inserting, deleting, finding, and sorting the data are some of the well-known operations that one can perform using data structures.<br>
 - Solving Data Structure problems all revolve around finding the solution in the least amount of time using the least computing resources. <br>
 - Calculating time can be denoted in complexity classes based on which operations you use. <br>
 - You'll find problems in this repo from Leetcode.
@@ -61,11 +62,11 @@
  # Abstract/Non-Linear Data Structures <br>
  ## 1. Tree <br>
    - A tree is an abstract data structure used to organize the data in a tree format so as to make the data insertion or deletion or search faster. <br>
- ## 2. Binary Tree <br>
-   - One node is marked as Root node.<br>
-   - Every node other than the root is associated with one parent node.<br>
-   - Each node can have an arbitrary number of child node.<br>
-   - It is a Data Structure where each data element can be connected to maximum two other data elements and it starts with a root node. <br>
+     ### 1.1. Binary Tree <br>
+       - One node is marked as Root node.<br>
+       - Every node other than the root is associated with one parent node.<br>
+       - Each node can have an arbitrary number of child node.<br>
+       - It is a Data Structure where each data element can be connected to maximum two other data elements and it starts with a root node. <br>
  ## 3. Heap <br>
    - It is a special case of Tree data structure where the data in the parent node is either strictly greater than/ equal to the child nodes or strictly less than it’s child nodes. <br>
  ## 4. Hash Table <br>
