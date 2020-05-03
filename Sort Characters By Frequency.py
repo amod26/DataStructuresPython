@@ -14,3 +14,39 @@ class Solution:
             for i in range(v):
                 res += k  # add characters to string res by frequency
         return res
+# Using Arrays & sorting
+class Solution:
+    def frequencySort(self, s: str) -> str:
+        if not s:
+            return s
+        
+        s=list(s)
+        
+        s.sort()
+        
+        all_strings=[]
+        cur_sb= [s[0]]
+        for c in s[1:]:
+            if cur_sb[-1] != c:
+                all_strings.append("".join(cur_sb))
+                cur_sb=[]
+            cur_sb.append(c)
+        all_strings.append(''.join(cur_sb))
+        
+        all_strings.sort(key=lambda string:len(string),reverse=True)
+        return "".join(all_strings)
+    
+    
+  # Using Hashmap & sorting
+def frequencySort(self, s: str) -> str:
+
+    # Count up the occurances.
+    counts = collections.Counter(s)
+    
+    # Build up the string builder.
+    string_builder = []
+    for letter, freq in counts.most_common():
+        # letter * freq makes freq copies of letter.
+        # e.g. "a" * 4 -> "aaaa"
+        string_builder.append(letter * freq)
+    return "".join(string_builder)
