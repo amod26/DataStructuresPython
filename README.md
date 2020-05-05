@@ -87,6 +87,9 @@ deque(['Michael', 'Terry', 'Graham'])
        - It is a Data Structure where each data element can be connected to maximum two other data elements and it starts with a root node. <br>
  ## 2. Heap <br>
    - It is a special case of Tree data structure where the data in the parent node is either strictly greater than/ equal to the child nodes or strictly less than it’s child nodes. <br>
+   - Heaps can be of two types:<br>
+        - Max-Heap: In a Max-Heap the key present at the root node must be greatest among the keys present at all of it’s children. The same property must be recursively true for all sub-trees in that Binary Tree.<br>
+        - Min-Heap: In a Min-Heap the key present at the root node must be minimum among the keys present at all of it’s children. The same property must be recursively true for all sub-trees in that Binary Tree.<br>
  ## 3. Hash Table <br>
    - It is a data structure which is made of arrays associated with each other using a hash function. It retrieves values using keys rather than index from a data element. <br>
  ## 4. Graph <br>
