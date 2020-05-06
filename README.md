@@ -1,8 +1,16 @@
-# DataStructuresPython
-- Accessing, inserting, deleting, finding, and sorting the data are some of the well-known operations that one can perform using data structures.<br>
+# Getting Started with Data Structures
+```
+To crack any technical interview, 3 things are the most important: 
+        - Basic data Structures
+        - Fundamental Algorithms
+        - Time & Space Complexity  
+       
+  This repo will help you get started with the basics of the above 3 points.
+```
 - Solving Data Structure problems all revolve around finding the solution in the least amount of time using the least computing resources. <br>
+- Accessing, inserting, deleting, finding, and sorting the data are some of the well-known operations that one can perform using data structures.<br>
 - Calculating time can be denoted in complexity classes based on which operations you use. <br>
-- You'll find problems in this repo from Leetcode.
+- You'll find all sorts of problems in this repo from Leetcode.
 
 ## Linear Data Structures
 ## 1. Arrays
@@ -11,8 +19,7 @@
 - However, you might want to add a new DVD to the box, or you might want to get rid of the old ones that you've watched a million times over in the past. <br>
 - Each array has a address called **'Index'.** An index is just the number associated with that array. Index starts from 0,1,..N.<br>
 
-
-> The two most primitive Array operations are writing elements into them, and reading elements from them. All other Array operations are built on top of these two primitive operations. <br>
+- The two most primitive Array operations are writing elements into them, and reading elements from them. All other Array operations are built on top of these two primitive operations. <br>
 
 
 * We usually use _for loop_ to write and read data from the Array. <br>
