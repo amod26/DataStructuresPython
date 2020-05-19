@@ -1,11 +1,11 @@
 # Getting Started with Data Structures
 ```
+This repo will help you get started with the basics.
 To crack any technical interview, 3 things are the most important: 
         - Basic data Structures
         - Fundamental Algorithms
         - Time & Space Complexity  
        
-  This repo will help you get started with the basics of the above 3 points.
 ```
 - Solving Data Structure problems all revolve around finding the solution in the least amount of time using the least computing resources. <br>
 - Accessing, inserting, deleting, finding, and sorting the data are some of the well-known operations that one can perform using data structures.<br>
