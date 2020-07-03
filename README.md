@@ -10,7 +10,7 @@ To crack any technical interview, 3 things are the most important:
 - Solving Data Structure problems all revolve around finding the solution in the least amount of time using the least computing resources. <br>
 - Accessing, inserting, deleting, finding, and sorting the data are some of the well-known operations that one can perform using data structures.<br>
 - Calculating time can be denoted in complexity classes based on which operations you use. <br>
-- You'll find all sorts of problems in this repo from Leetcode.
+- You'll mostly find problems in this repo from Leetcode.
 
 ## Linear Data Structures
 ## 1. Arrays
