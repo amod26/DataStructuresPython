@@ -19,7 +19,8 @@ To crack any technical interview, 3 things are the most important:
 - However, you might want to add a new DVD to the box, or you might want to get rid of the old ones that you've watched a million times over in the past. <br>
 - Each array has a address called **'Index'.** An index is just the number associated with that array. Index starts from 0,1,..N.<br>
 
-- The two most primitive Array operations are writing elements into them, and reading elements from them. All other Array operations are built on top of these two primitive operations. <br>
+- The two most primitive Array operations are writing elements into them, and reading elements from them. 
+- All other Array operations are built on top of these two primitive operations. <br>
 
 
 * We usually use _for loop_ to write and read data from the Array. <br>
